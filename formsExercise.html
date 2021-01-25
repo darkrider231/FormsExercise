@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+</head>
+<body>
+    <h1>Customer Experience Survey</h1>
+    <label for="">Store Number</label>
+    <select name="" id="SotreOptions">
+        <option hidden value="Select a Store Number">3109</option>
+        <option value="3109">3109</option>
+        <option value="2421">2421</option>
+        <option value="5357">5357</option>
+    </select>
+    <fieldset>
+        <legend>When you visited:</legend>
+        <label for="Date Visited:">Date Visited:</label>
+        <input type="date" name="" id="" min="2021-01-01" max="2021-12-31">
+        <label for="Time">Time:</label>
+        <input type="time" name="" id="">
+    </fieldset>
+    <label for="FirstName">First Name:</label>
+    <input type="text" name="" id="FirstName" placeholder="John" required>
+    <label for="LastName">Last Name:</label>
+    <input type="text" name="" id="LastName" placeholder="Doe" required>
+    <br>
+    <label for="userEmail">Email:</label>
+    <input type="email" name="" id="userEmail" placeholder="your email" required>
+    <br>
+    <label for="userRadioOne">Male</label>
+    <input type="radio" name="" id="userRadioOne">
+    <label for="userRadioTwo">Female</label>
+    <input type="radio" name="" checked id="userRadioTwo">
+    <label for="userRadioThree">Other</label>
+    <input type="radio" name="" id="userRadioThree">
+    <br>
+    <label for="yourExperience">Tell us about your experience:</label>
+    <br>
+    <textarea name="" id="" cols="20" rows="2"></textarea>
+    <br>
+    <label for="lastMonthVisit">Times visited in the last month:</label>
+    <input type="number" name="" id="" min="1" max="30">
+    <br>
+    <label for="checkBoxExperience">Please check the box if you would be willing to be contacted about your experience:</label>
+    <input type="checkbox" name="" id="checkBoxExperience">
+    <br>
+    <label for="pass">Password</label>
+    <input type="password" name="pass" id="pass" minlength="5" maxlength="10" required>
+    <br>
+    <button type="reset">Reset</button> <button type="submit">Submit</button>
+
+</body>
+</html>
